@@ -3,7 +3,7 @@ var con = mysql.createPool({
     host : 'localhost',
     user : 'root',
     password: 'root',
-    databasec : 'contact_us'
+    database : 'contact_us'
 });
 
 module.exports = con.promise();
